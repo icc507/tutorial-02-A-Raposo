@@ -9,4 +9,8 @@
 #         (77, 'jiji', 'hola', 90, 20)
 t = input().split()
 t.reverse()
-print(t)
+for i in range(len(t)):
+    if t[i].isdigit():
+        t[i]=int(t[i])
+a = (*t,)
+print(a)
