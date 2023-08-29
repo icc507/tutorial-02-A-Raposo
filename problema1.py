@@ -11,4 +11,5 @@
 #         ('mundo', 44, 20, 90, 'hola', 'mundo', 44)
 t = tuple(input().split())
 m = tuple(input().split())
-print(m,t,m)
+a = (m+t+m)
+print(a)
